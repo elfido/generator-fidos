@@ -1,0 +1,49 @@
+{
+  "name": "generator-fidos",
+  "version": "0.1.0",
+  "description": "Collection of Yeoman Generators",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "files": [
+    "generators/app",
+    "generators/module"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfido/generator-fidos.git"
+  },
+  "keywords": [
+    "fido",
+    "yeoman",
+    "generator",
+    "library",
+    "c++"
+  ],
+  "author": "Fido <fidencio.garrido@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elfido/generator-fidos/issues"
+  },
+  "homepage": "https://github.com/elfido/generator-fidos#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.24.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.2.0",
+    "gulp-exec": "^2.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-mocha": "^3.0.0",
+    "gulp-watch": "^4.3.9",
+    "jshint": "^2.9.2",
+    "random-string": "^0.1.2",
+    "supertest": "^2.0.0"
+  }
+}
