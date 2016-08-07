@@ -21,6 +21,7 @@
     "fido",
     "yeoman",
     "generator",
+    "yeoman-generator",
     "library",
     "c++"
   ],
